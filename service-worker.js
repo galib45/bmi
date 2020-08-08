@@ -1,6 +1,6 @@
-let version = 'v4';
-let cacheName = 'bmi-cache';
-let filesToCache = [
+var version = 'v4';
+var cacheName = 'bmi-cache';
+var filesToCache = [
 	'/index.html',
 	'/src.a2b27638.css',
 	'/src.a2b27638.js',
