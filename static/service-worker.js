@@ -1,10 +1,11 @@
-var version = 'v4';
+var version = 'v5';
 var cacheName = 'bmi-cache';
 var filesToCache = [
-	'/index.html',
-	'/src.a2b27638.css',
-	'/src.a2b27638.js',
-  '/logo.d8ae4b8a.png'  
+	'/bmi/',
+  '/bmi/index.html',
+	'/bmi/src.a2b27638.css',
+	'/bmi/src.a2b27638.js',
+  '/bmi/logo.d8ae4b8a.png'  
 ];
 
 self.addEventListener('install', (event)=>{

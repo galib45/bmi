@@ -1,4 +1,4 @@
-var version = 'v4';
+var version = 'v5';
 var cacheName = 'bmi-cache';
 var filesToCache = [
 	'/bmi/',
