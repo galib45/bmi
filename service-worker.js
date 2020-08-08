@@ -20,14 +20,10 @@ self.addEventListener('install', (event)=>{
 
 self.addEventListener('fetch', (event)=>{
   console.log('fetching... '+event.request.url);
-  var req = event.request;
-  console.log(req);
-  req.url = 'lulami';
-  console.log(req);
   event.respondWith(
-    fetch(event.request)
+    fetch(event.request.url)
     .catch(()=>{
-      return caches.match(event.request);
+      return caches.match(event.request.url);
     })
   );
 });
