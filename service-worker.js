@@ -1,11 +1,10 @@
 let version = 'v4';
 let cacheName = 'bmi-cache';
 let filesToCache = [
-	'/',
-	'./index.html',
-	'./src.a2b27638.css',
-	'./src.a2b27638.js',
-  './logo.d8ae4b8a.png'  
+	'/index.html',
+	'/src.a2b27638.css',
+	'/src.a2b27638.js',
+  '/logo.d8ae4b8a.png'  
 ];
 
 self.addEventListener('install', (event)=>{
