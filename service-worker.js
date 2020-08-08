@@ -1,7 +1,8 @@
 var version = 'v4';
 var cacheName = 'bmi-cache';
 var filesToCache = [
-	'/bmi/index.html',
+	'/bmi/',
+  '/bmi/index.html',
 	'/bmi/src.a2b27638.css',
 	'/bmi/src.a2b27638.js',
   '/bmi/logo.d8ae4b8a.png'  
