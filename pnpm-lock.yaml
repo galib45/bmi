@@ -5,7 +5,6 @@ devDependencies:
   cssnano: 4.1.10
   gh-pages: 3.1.0
   parcel-bundler: 1.12.4
-  parcel-plugin-static-files-copy: 2.4.3
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.4:
@@ -3885,13 +3884,6 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-G+iZGGiPEXcRzw0fiRxWYCKxdt/F7l9a0xkiU4XbcVRJCSlBnioWEwJMutOCCpoQmaQtjB4RBHDGIHN85AIhLQ==
-  /parcel-plugin-static-files-copy/2.4.3:
-    dependencies:
-      minimatch: 3.0.4
-      path: 0.12.7
-    dev: true
-    resolution:
-      integrity: sha512-tUZn54XsZIZ9hhhNQkyaWaHLvjOj2wra8pp4yPjp1b5p1frQ+YEwG6eaNtaQVyA+UvORsZg+Wni7n9gIOBE8eA==
   /parse-asn1/5.1.5:
     dependencies:
       asn1.js: 4.10.1
@@ -3958,13 +3950,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
-  /path/0.12.7:
-    dependencies:
-      process: 0.11.10
-      util: 0.10.4
-    dev: true
-    resolution:
-      integrity: sha1-1NwqUGxM4hl+tIHr/NWzbAFAsQ8=
   /pbkdf2/3.1.1:
     dependencies:
       create-hash: 1.2.0
@@ -5494,12 +5479,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-evsa/lCAUkZInj23/g7TeTNqwPk=
-  /util/0.10.4:
-    dependencies:
-      inherits: 2.0.3
-    dev: true
-    resolution:
-      integrity: sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==
   /util/0.11.1:
     dependencies:
       inherits: 2.0.3
@@ -5626,6 +5605,5 @@ specifiers:
   cssnano: ^4.1.10
   gh-pages: ^3.1.0
   parcel-bundler: ^1.12.4
-  parcel-plugin-static-files-copy: ^2.4.3
   react: ^16.13.1
   react-dom: ^16.13.1
