@@ -19,11 +19,17 @@ self.addEventListener('install', (event)=>{
 });
 
 self.addEventListener('fetch', (event)=>{
-  console.log('fetching... '+event.request.url);
+  var url = event.request.url;
+  console.log('fetching... ' + url);
+  if(url.search(/\/bmi\//)==-1) {
+    var lastSlash = url.lastIndexOf('/')
+    url = url.subString(0, lastSlash) + '/bmi' + url.subString(lastSlash, url.length-1);
+    console.log(url);
+  }
   event.respondWith(
-    fetch(event.request.url)
+    fetch(url)
     .catch(()=>{
-      return caches.match(event.request.url);
+      return caches.match(url);
     })
   );
 });
