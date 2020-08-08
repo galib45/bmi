@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.bmi {
+	margin: 10px;
+	color: coral;
+}
+
+/*
+#f0f0f0
+#43dde6
+#364f6b
+#fc5185
+*/

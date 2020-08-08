@@ -1,0 +1,76 @@
+.input-div {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.input-div > * {
+	margin: 5px 0;
+	padding: 5px 0;
+}
+
+.input-div > label {
+	font-size: 1.1rem;
+}
+
+.input-div > input {
+	font-size: 0.95rem;
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 0.8rem;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.input-div > input:focus {
+	border-bottom: 2px solid coral;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+}
+
+.input-div > input:invalid {
+	background-color: bisque;
+}
+.header-div {
+	margin: 10px;
+	padding: 10px 0;
+}
+
+h1, p {
+	margin: 0;
+	padding: 2px 0;
+}
+.button {
+	margin: 10px;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	background-color: coral;
+	color: white;
+	padding: 0.5rem 0.6rem;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.bmi {
+	margin: 10px;
+	color: coral;
+}
+
+/*
+#f0f0f0
+#43dde6
+#364f6b
+#fc5185
+*/
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
